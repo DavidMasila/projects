@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(Untitled2.jpg);
+    background-size: cover;
+    background-position: initial;
+    font-family: sans-serif;
+}
+.menu-bar {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.menu-bar ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.menu-bar ul li {
+    width: 130px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+.active, .menu-bar ul li:hover {
+    background-color: red;
+    border-radius: 25px;
+}
+.menu-bar .fa {
+    margin-right: 6px;
+}
+.sub-menu-1 {
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    border-radius: 22px;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+}
+
+/* .menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+} */
+
+.fa-angle-right {
+    float: right;
+}
+
+.sub-menu-2{
+    display: none;
+}
+
+.hover-me:hover .sub-menu-2 {
+    position: absolute;
+    display: block;
+    margin-top: -60px;
+    margin-left: 140px;
+}
