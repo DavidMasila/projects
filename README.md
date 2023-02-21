@@ -1,2 +1,2 @@
 # Projects repository
-## HTML, CSS, JAVASCRIPT, PYTHON projects. 
+HTML, CSS, JAVASCRIPT, PYTHON projects. 
